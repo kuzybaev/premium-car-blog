@@ -1,89 +1,31 @@
-*, *:before, *:after {
-	box-sizing: border-box;
-}
+@import url(./normalize.css);
+@import url(./fonts.css);
+@import url(../blocks/root/root.css);
 
-@font-face {
-	font-family: PT Sans;
-	src: url(../fonts/PT\ Sans/PTSans-Regular.ttf);
-	font-weight: normal;
-}
+/*---header---*/
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__page-title/header__page-title.css);
+@import url(../blocks/header/__main-link/header__main-link.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__menu-wrapper/header__menu-wrapper.css);
+@import url(../blocks/header/__menu-link/header__menu-link.css);
+@import url(../blocks/header/__search-form/header__search-form.css);
+@import url(../blocks/header/__search-button/header__search-button.css);
 
-@font-face {
-	font-family: Lato;
-	src: url(../fonts/Lato/Lato-Regular.ttf);
-	font-weight: normal;
-}
 
-.page {
-	min-width: 1100px;
-	max-width: 1920px;
-	margin: 0 auto;
-	font-family: PT Sans; 
-}
+/*---heading---*/
+@import url(../blocks/heading/heading.css);
+@import url(../blocks/heading/__column/heading__column.css);
+@import url(../blocks/heading/__column-item/heading__column-item.css);
+@import url(../blocks/heading/__column-image/heading__column-image.css);
+@import url(../blocks/heading/__author/heading__author.css);
+@import url(../blocks/heading/__author/_size/heading__author_size_large.css);
+@import url(../blocks/heading/__author/_size/heading__author_size_small.css);
+@import url(../blocks/heading/__title/heading__title.css);
+@import url(../blocks/heading/__title/_size/heading__title_size_large.css);
+@import url(../blocks/heading/__title/_size/heading__title_size_small.css);
+@import url(../blocks/heading/__row/heading__row.css);
+@import url(../blocks/heading/__row-item/heading__row-item.css);
+@import url(../blocks/heading/row-image/heading__row-image.css);
 
-/*Headr block*/
-
-.header {
-	height: 100vh;
-	max-height: 90px;
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
-	background-color: #000;
-}
-
-.header__page-title {
-	margin: 0;
-	min-height: 26px;
-	color: #fff;
-	font-size: 14px;
-	display: flex;
-	align-items: center;
-	font-weight: 400;
-	line-height: 17px;
-}
-
-.header__main-link {
-	color: #fff;
-	text-decoration: none;
-	text-transform: uppercase;
-	background-color: #4A90E2;
-	border-radius: 3px;
-	margin-left: 6px;
-	padding: 3px 5px;
-	font-family: Lato;
-}
-
-.header__menu {
-	min-width: 368px;
-}
-
-.header__menu-wrapper {
-	list-style: none;
-	display: flex;
-	justify-content: space-between;
-	padding: 0;
-	margin: 0;
-	font-size: 14px;
-	font-weight: 400;
-}
-
-.header__menu-link {
-	color: #fff;
-	text-decoration: none;
-}
-
-.header__search-form {
-	
-}
-
-.header__search-button {
-	margin: 0;
-	padding: 0;
-	background-color: black;
-	border: 0;
-	cursor: pointer;
-}
-
-/*Most popular*/
 

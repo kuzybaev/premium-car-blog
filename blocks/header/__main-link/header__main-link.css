@@ -1,0 +1,17 @@
+.header__main-link {
+	min-width: 39px;
+	min-height: 23px;
+	margin: 0;
+	margin-left: 6px;
+	padding: 3px 5px;
+
+	background-color: #4A90E2;
+	border-radius: 3px;
+
+	font-family: 'Lato', Arial, Helvetica, sans-serif;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 14px;
+}
