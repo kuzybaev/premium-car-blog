@@ -1,0 +1,12 @@
+.tag-link {
+  position: absolute;
+  top: 30px;
+  left: 34px;
+  padding: 4px 12px 2px;
+  border-radius: 3px;
+  background-color: #4A90E2;
+  text-decoration: none;
+  color: #fff;
+  line-height: 16px;
+  font-size: 12px;
+}

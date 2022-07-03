@@ -2,4 +2,12 @@
 	position: relative;
 	width: 370px;
 	height: 265px;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: transform ease .3s;
+}
+
+.heading__row-item:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 20px #132840;
 }

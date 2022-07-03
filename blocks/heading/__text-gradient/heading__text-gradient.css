@@ -1,0 +1,7 @@
+.heading__text-gradient {
+  width: 370px;
+  height: 165px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 7.5e-05) 0%, rgba(0, 0, 0, 0.75) 82.82%);
+  position: absolute;
+  top: 101px;
+}

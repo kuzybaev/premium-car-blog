@@ -1,5 +1,13 @@
 .heading__column-item {
 	height: 560px;
 	width: 370px;
+  border-radius: 5px;
 	position: relative;
+  overflow: hidden;
+  transition: transform ease .3s;
+}
+
+.heading__column-item:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 20px #132840;
 }
